@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    Bootstrap CSS   -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--    Custom CSS   -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Navbar with Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-info">
+
+        <!-- Logo with name -->
+        <a class="navbar-brand d-inline-flex align-items-center justify-content-center" href="#">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+            </svg>
+            <p class="logo-name">Bootstrap</p>
+        </a>
+
+        <!-- Collapse Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Content -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Odio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Morbi</a>
+                <a class="nav-link" href="#">Quis</a>
+                <a class="nav-link" href="#">Commodo</a>
+            </div>
+            <form class="from-inline my-lg-0 d-flex d-flex-sm">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-dark my-sm-0 my-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Blandit libero volutpat sed cras ornare arcu dui vivamus. 
+                    Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. 
+                    Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. 
+                    Risus nullam eget felis eget. Erat nam at lectus urna duis convallis. 
+                    Tempor commodo ullamcorper a lacus vestibulum sed arcu. 
+                    Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. 
+                    Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. 
+                    Enim ut sem viverra aliquet. Id porta nibh venenatis cras. 
+                    Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. 
+                    Neque volutpat ac tincidunt vitae semper quis.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Amet tellus cras adipiscing enim eu turpis. 
+                    Quis hendrerit dolor magna eget est. 
+                    In hac habitasse platea dictumst vestibulum rhoncus est. 
+                    Aliquam faucibus purus in massa tempor. 
+                    Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. 
+                    Eget nullam non nisi est sit amet facilisis. 
+                    Cursus eget nunc scelerisque viverra mauris in. 
+                    Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. 
+                    Pulvinar neque laoreet suspendisse interdum consectetur libero id. 
+                    Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. 
+                    Duis ut diam quam nulla porttitor massa. Viverra justo nec ultrices dui sapien. 
+                    Vitae ultricies leo integer malesuada nunc vel risus commodo. 
+                    Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. 
+                    Cras ornare arcu dui vivamus arcu felis bibendum ut tristique.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. 
+                    Enim diam vulputate ut pharetra sit amet aliquam id diam. 
+                    Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. 
+                    Dui accumsan sit amet nulla facilisi. Lectus sit amet est placerat. 
+                    Sapien et ligula ullamcorper malesuada proin libero. 
+                    Pulvinar etiam non quam lacus. 
+                    Neque sodales ut etiam sit amet nisl purus in mollis. 
+                    Facilisis volutpat est velit egestas dui id ornare. 
+                    Sed euismod nisi porta lorem mollis aliquam ut porttitor. 
+                    Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. 
+                    Urna porttitor rhoncus dolor purus non enim praesent elementum. 
+                    Pulvinar elementum integer enim neque volutpat ac tincidunt.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Integer quis auctor elit sed vulputate mi sit. 
+                    Curabitur vitae nunc sed velit. 
+                    Leo integer malesuada nunc vel risus commodo viverra maecenas. 
+                    Faucibus pulvinar elementum integer enim neque volutpat ac. 
+                    Arcu cursus vitae congue mauris. Cursus vitae congue mauris rhoncus. 
+                    Facilisis magna etiam tempor orci eu lobortis elementum. 
+                    Sodales ut etiam sit amet nisl purus in mollis nunc. 
+                    Erat pellentesque adipiscing commodo elit at imperdiet. 
+                    Ultricies leo integer malesuada nunc vel risus commodo viverra. 
+                    Urna et pharetra pharetra massa massa ultricies mi quis. 
+                    Dui accumsan sit amet nulla facilisi. 
+                    Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                    Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. 
+                    Lectus mauris ultrices eros in cursus turpis massa tincidunt.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. 
+                    Ut porttitor leo a diam sollicitudin tempor id. 
+                    Neque viverra justo nec ultrices dui. 
+                    At tellus at urna condimentum mattis pellentesque id nibh tortor. 
+                    Ornare arcu odio ut sem nulla pharetra diam. 
+                    Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. 
+                    Est lorem ipsum dolor sit. Nunc scelerisque viverra mauris in aliquam. 
+                    Ullamcorper morbi tincidunt ornare massa. Tempor orci eu lobortis elementum nibh. 
+                    Laoreet non curabitur gravida arcu ac tortor dignissim convallis. 
+                    Pulvinar etiam non quam lacus suspendisse. Fusce id velit ut tortor pretium viverra suspendisse. 
+                    Aenean vel elit scelerisque mauris pellentesque. Proin nibh nisl condimentum id venenatis. 
+                    Mauris sit amet massa vitae. Scelerisque varius morbi enim nunc faucibus a pellentesque sit.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Fames ac turpis egestas sed tempus urna. In est ante in nibh mauris cursus mattis molestie a. 
+                    Ultrices in iaculis nunc sed. Nulla facilisi morbi tempus iaculis urna. 
+                    Velit aliquet sagittis id consectetur. Iaculis urna id volutpat lacus laoreet. 
+                    Mi proin sed libero enim sed faucibus turpis in eu. Mi proin sed libero enim sed. 
+                    Euismod elementum nisi quis eleifend quam. Tempus imperdiet nulla malesuada pellentesque elit eget. 
+                    Eget est lorem ipsum dolor sit amet. At imperdiet dui accumsan sit. 
+                    Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. 
+                    Orci phasellus egestas tellus rutrum. Tempus iaculis urna id volutpat. 
+                    Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Blandit libero volutpat sed cras ornare arcu dui vivamus. 
+                    Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. 
+                    Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. 
+                    Risus nullam eget felis eget. Erat nam at lectus urna duis convallis. 
+                    Tempor commodo ullamcorper a lacus vestibulum sed arcu. 
+                    Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. 
+                    Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. 
+                    Enim ut sem viverra aliquet. Id porta nibh venenatis cras. 
+                    Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. 
+                    Neque volutpat ac tincidunt vitae semper quis.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Amet tellus cras adipiscing enim eu turpis. 
+                    Quis hendrerit dolor magna eget est. 
+                    In hac habitasse platea dictumst vestibulum rhoncus est. 
+                    Aliquam faucibus purus in massa tempor. 
+                    Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. 
+                    Eget nullam non nisi est sit amet facilisis. 
+                    Cursus eget nunc scelerisque viverra mauris in. 
+                    Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. 
+                    Pulvinar neque laoreet suspendisse interdum consectetur libero id. 
+                    Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. 
+                    Duis ut diam quam nulla porttitor massa. Viverra justo nec ultrices dui sapien. 
+                    Vitae ultricies leo integer malesuada nunc vel risus commodo. 
+                    Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. 
+                    Cras ornare arcu dui vivamus arcu felis bibendum ut tristique.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. 
+                    Enim diam vulputate ut pharetra sit amet aliquam id diam. 
+                    Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. 
+                    Dui accumsan sit amet nulla facilisi. Lectus sit amet est placerat. 
+                    Sapien et ligula ullamcorper malesuada proin libero. 
+                    Pulvinar etiam non quam lacus. 
+                    Neque sodales ut etiam sit amet nisl purus in mollis. 
+                    Facilisis volutpat est velit egestas dui id ornare. 
+                    Sed euismod nisi porta lorem mollis aliquam ut porttitor. 
+                    Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. 
+                    Urna porttitor rhoncus dolor purus non enim praesent elementum. 
+                    Pulvinar elementum integer enim neque volutpat ac tincidunt.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Integer quis auctor elit sed vulputate mi sit. 
+                    Curabitur vitae nunc sed velit. 
+                    Leo integer malesuada nunc vel risus commodo viverra maecenas. 
+                    Faucibus pulvinar elementum integer enim neque volutpat ac. 
+                    Arcu cursus vitae congue mauris. Cursus vitae congue mauris rhoncus. 
+                    Facilisis magna etiam tempor orci eu lobortis elementum. 
+                    Sodales ut etiam sit amet nisl purus in mollis nunc. 
+                    Erat pellentesque adipiscing commodo elit at imperdiet. 
+                    Ultricies leo integer malesuada nunc vel risus commodo viverra. 
+                    Urna et pharetra pharetra massa massa ultricies mi quis. 
+                    Dui accumsan sit amet nulla facilisi. 
+                    Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
+                    Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. 
+                    Lectus mauris ultrices eros in cursus turpis massa tincidunt.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. 
+                    Ut porttitor leo a diam sollicitudin tempor id. 
+                    Neque viverra justo nec ultrices dui. 
+                    At tellus at urna condimentum mattis pellentesque id nibh tortor. 
+                    Ornare arcu odio ut sem nulla pharetra diam. 
+                    Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. 
+                    Est lorem ipsum dolor sit. Nunc scelerisque viverra mauris in aliquam. 
+                    Ullamcorper morbi tincidunt ornare massa. Tempor orci eu lobortis elementum nibh. 
+                    Laoreet non curabitur gravida arcu ac tortor dignissim convallis. 
+                    Pulvinar etiam non quam lacus suspendisse. Fusce id velit ut tortor pretium viverra suspendisse. 
+                    Aenean vel elit scelerisque mauris pellentesque. Proin nibh nisl condimentum id venenatis. 
+                    Mauris sit amet massa vitae. Scelerisque varius morbi enim nunc faucibus a pellentesque sit.
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-info text-md-left text-xs-center div">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Fames ac turpis egestas sed tempus urna. In est ante in nibh mauris cursus mattis molestie a. 
+                    Ultrices in iaculis nunc sed. Nulla facilisi morbi tempus iaculis urna. 
+                    Velit aliquet sagittis id consectetur. Iaculis urna id volutpat lacus laoreet. 
+                    Mi proin sed libero enim sed faucibus turpis in eu. Mi proin sed libero enim sed. 
+                    Euismod elementum nisi quis eleifend quam. Tempus imperdiet nulla malesuada pellentesque elit eget. 
+                    Eget est lorem ipsum dolor sit amet. At imperdiet dui accumsan sit. 
+                    Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. 
+                    Orci phasellus egestas tellus rutrum. Tempus iaculis urna id volutpat. 
+                    Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
